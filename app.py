@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 
 # Charger le modèle
-model = joblib.load("model_RF.pkl")
+model = joblib.load("model_RF2.pkl")
 features = joblib.load("features.pkl")
 
 st.title("Prédiction du Prix Immobilier en Tunisie 🏠💰")
