@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import joblib
+from config import MODEL_RF_OPTIMIZED, SCALER, MODEL_COLUMNS
 
 # Page Config
 st.set_page_config(page_title="Tunisia House Price Predictor", page_icon="🏠")
@@ -10,9 +11,9 @@ st.set_page_config(page_title="Tunisia House Price Predictor", page_icon="🏠")
 @st.cache_resource
 def load_artifacts():
     try:
-        model = joblib.load('model_rf_optimized.pkl')
-        scaler = joblib.load('scaler.pkl')
-        model_columns = joblib.load('model_columns.pkl')
+        model = joblib.load(MODEL_RF_OPTIMIZED)
+        scaler = joblib.load(SCALER)
+        model_columns = joblib.load(MODEL_COLUMNS)
         return model, scaler, model_columns
     except FileNotFoundError:
         st.error("Artifacts not found. Please run the training notebook first to generate .pkl files.")

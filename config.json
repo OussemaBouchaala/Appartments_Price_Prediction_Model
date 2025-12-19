@@ -1,0 +1,25 @@
+{
+  "paths": {
+    "models_dir": "../models",
+    "data_dir": "../data",
+    "notebooks_dir": "../notebooks",
+    "model_rf_optimized": "../models/model_rf_optimized.pkl",
+    "scaler": "../models/scaler.pkl",
+    "model_columns": "../models/model_columns.pkl",
+    "model_rf2": "../models/model_RF2.pkl",
+    "features": "../models/features.pkl"
+  },
+  "data_files": {
+    "immobilier_cleaned": "../data/immobilier_cleaned.csv",
+    "immobilier_cleanedV2": "../data/immobilier_cleanedV2.csv",
+    "immobilier_vendre_cleaned": "../data/immobilier_vendre_cleaned.csv",
+    "immobilier_vendre_cleaned2": "../data/immobilier_vendre_cleaned2.csv",
+    "immobilier_vendre_cleaned3": "../data/immobilier_vendre_cleaned3.csv",
+    "immobilier_vendre_cleaned4": "../data/immobilier_vendre_cleaned4.csv",
+    "immobilier_vendre": "../data/immobilier_vendre.csv",
+    "tayara_cleaned": "../data/tayara_cleaned.csv",
+    "tayara_cleanedV2": "../data/tayara_cleanedV2.csv",
+    "tayara_cleanedV3": "../data/tayara_cleanedV3.csv",
+    "tayara_real_estate_raw": "../data/tayara_real_estate_raw.csv"
+  }
+}

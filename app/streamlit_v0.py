@@ -2,10 +2,11 @@ import streamlit as st
 import joblib
 import numpy as np
 import pandas as pd
+from config import MODEL_RF2, FEATURES
 
 # Charger le modèle
-model = joblib.load("model_RF2.pkl")
-features = joblib.load("features.pkl")
+model = joblib.load(MODEL_RF2)
+features = joblib.load(FEATURES)
 
 st.title("Prédiction du Prix Immobilier en Tunisie 🏠💰")
 
