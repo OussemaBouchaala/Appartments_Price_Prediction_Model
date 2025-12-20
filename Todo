@@ -1,0 +1,20 @@
+# My Todo List
+
+## Today (Fast API end point)
+- [ update project for fast API end point ]            Task 1 -  %
+- [ expose end point ]                                 Task 2 -  %
+- [ test with fast API end point and streamlit ]       Task 3 -  %
+
+## This Week
+- [ Fast API end point ]                               Task 1 -  %
+- [ .env file ]                                        Task 2 -  %
+- [ the other project search for others approaches ]   Task 3 -  %
+
+## This Month
+- [ ] Task 1
+- [ ] Task 2
+- [ ] Task 3
+
+## Completed
+- [x] Finished task 1
+- [x] Finished task 2
