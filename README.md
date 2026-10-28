@@ -1,6 +1,7 @@
 <h1 align="center">🏠 Tunisia Real Estate Price Predictor</h1>
 <p align="center">Estimate the market price of an apartment in Tunisia from its size, rooms and city.<br/>
 <b>Python · scikit-learn · Streamlit · FastAPI · Docker</b></p>
+<p align="center"><a href="https://appartmentspricepred.streamlit.app/"><b>▶ Try the live demo</b></a></p>
 
 ---
 
