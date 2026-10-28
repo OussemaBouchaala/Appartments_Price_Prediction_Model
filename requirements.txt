@@ -41,3 +41,5 @@ tzdata==2025.3
 urllib3==2.6.2
 watchdog==6.0.0
 ##
+fastapi==0.115.6
+uvicorn==0.34.0
